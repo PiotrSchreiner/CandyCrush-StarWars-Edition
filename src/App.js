@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import ScoreBoard from "./components/ScoreBoard";
-import emcool from "./Images/emcool.png";
-import emcry from "./Images/emcry.png";
-import emlaugh from "./Images/emlaugh.png";
-import emlove from "./Images/emlove.png";
-import emmad from "./Images/emmad.png";
-import emshock from "./Images/emshock.png";
+import trooper from "./Images/trooper.png";
+import R2D2 from "./Images/R2D2.png";
+import C3PO from "./Images/C3PO.png";
+import Yoda from "./Images/Yoda.png";
+import DVader from "./Images/DVader.png";
+import Jabba from "./Images/Jabba.png";
 import boom from "./Images/boom.png";
 import clickSound from "./music/thememusic.mp3";
 import laserSound from "./music/laser.mp3";
@@ -15,7 +15,7 @@ const soundEffect = new Audio(laserSound);
 
 //candy colors
 const width = 8;
-const candyColors = [emcool, emcry, emlaugh, emlove, emmad, emshock];
+const candyColors = [trooper, R2D2, C3PO, Yoda, DVader, Jabba];
 //app
 const App = () => {
   const [currentColorArrangement, setCurrentColorArrangement] = useState([]);
@@ -269,5 +269,5 @@ const App = () => {
     </div>
   );
 };
-
+// export game
 export default App;
