@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains a basic react.js code for a candy crush based game.
+This repository contains a basic react.js code for a candy crush based game with some nice looking css features and animations.
 
 ## Credits
 
